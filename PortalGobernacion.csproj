@@ -1,0 +1,1480 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "PortalGobernacion"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "PortalGobernacion"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Web.UI.WebControls"
+                    AssemblyName = "Microsoft.Web.UI.WebControls"
+                    HintPath = "bin\Microsoft.Web.UI.WebControls.dll"
+                />
+                <Reference
+                    Name = "datetextboxcontrols"
+                    AssemblyName = "DateTextBoxControls"
+                    HintPath = "bin\datetextboxcontrols.dll"
+                />
+                <Reference
+                    Name = "DateTextBoxWebForms"
+                    AssemblyName = "DateTextBoxWebForms"
+                    HintPath = "bin\DateTextBoxWebForms.dll"
+                />
+                <Reference
+                    Name = "duemetri.ui.webcontrols.hwmenu"
+                    AssemblyName = "DUEMETRI.UI.WebControls.HWMenu"
+                    HintPath = "bin\duemetri.ui.webcontrols.hwmenu.dll"
+                />
+                <Reference
+                    Name = "FreeTextBox"
+                    AssemblyName = "FreeTextBox"
+                    HintPath = "bin\FreeTextBox.dll"
+                />
+                <Reference
+                    Name = "Reports"
+                    AssemblyName = "Reports"
+                    HintPath = "C:\Respaldo\ReportNET\Inetpub\wwwroot\ReportSamplesASP\bin\Reports.dll"
+                />
+                <Reference
+                    Name = "MySql.Data"
+                    AssemblyName = "MySql.Data"
+                    HintPath = "bin\MySql.Data.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopupCalendar.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Titulo.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Titulo.ascx.cs"
+                    DependentUpon = "Titulo.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Titulo.ascx.resx"
+                    DependentUpon = "Titulo.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\AccesoDenegado.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\AccesoDenegado.ascx.cs"
+                    DependentUpon = "AccesoDenegado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\AccesoDenegado.ascx.resx"
+                    DependentUpon = "AccesoDenegado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\CambiarClave.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\CambiarClave.ascx.cs"
+                    DependentUpon = "CambiarClave.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\CambiarClave.ascx.resx"
+                    DependentUpon = "CambiarClave.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\DefinirModulos.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\DefinirModulos.ascx.cs"
+                    DependentUpon = "DefinirModulos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\DefinirModulos.ascx.resx"
+                    DependentUpon = "DefinirModulos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\EditarDefinirModulos.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\EditarDefinirModulos.ascx.cs"
+                    DependentUpon = "EditarDefinirModulos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\EditarDefinirModulos.ascx.resx"
+                    DependentUpon = "EditarDefinirModulos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\EditarGrupo.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\EditarGrupo.ascx.cs"
+                    DependentUpon = "EditarGrupo.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\EditarGrupo.ascx.resx"
+                    DependentUpon = "EditarGrupo.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\EditarPaginas.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\EditarPaginas.ascx.cs"
+                    DependentUpon = "EditarPaginas.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\EditarPaginas.ascx.resx"
+                    DependentUpon = "EditarPaginas.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\EditarUsuario.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\EditarUsuario.ascx.cs"
+                    DependentUpon = "EditarUsuario.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\EditarUsuario.ascx.resx"
+                    DependentUpon = "EditarUsuario.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Grupos.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Grupos.ascx.cs"
+                    DependentUpon = "Grupos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Grupos.ascx.resx"
+                    DependentUpon = "Grupos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Ingresar.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Ingresar.ascx.cs"
+                    DependentUpon = "Ingresar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Ingresar.ascx.resx"
+                    DependentUpon = "Ingresar.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Paginas.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Paginas.ascx.cs"
+                    DependentUpon = "Paginas.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Paginas.ascx.resx"
+                    DependentUpon = "Paginas.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Salir.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Salir.aspx.cs"
+                    DependentUpon = "Salir.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Salir.aspx.resx"
+                    DependentUpon = "Salir.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administracion\Usuarios.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administracion\Usuarios.ascx.cs"
+                    DependentUpon = "Usuarios.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administracion\Usuarios.ascx.resx"
+                    DependentUpon = "Usuarios.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BD\Script.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Datos\Imagenes\ejemplo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Datos\Imagenes\Escudo.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Datos\Imagenes\Escudob.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Datos\Xml\ventas.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Datos\Xml\ventas.xsl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Kernel\AyudanteMySQL.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\AyudanteSQLServer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\BaseDatos.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\Configuracion.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\Controles.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\GruposBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\ModulosBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\PaginasBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\Seguridad.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kernel\UsuarioBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\Contactos.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\Contactos.ascx.cs"
+                    DependentUpon = "Contactos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\Contactos.ascx.resx"
+                    DependentUpon = "Contactos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\ContactosBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\EditarContactos.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\EditarContactos.ascx.cs"
+                    DependentUpon = "EditarContactos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Contactos\EditarContactos.ascx.resx"
+                    DependentUpon = "EditarContactos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\Documentos.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\Documentos.ascx.cs"
+                    DependentUpon = "Documentos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\Documentos.ascx.resx"
+                    DependentUpon = "Documentos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\DocumentosBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\EditarDocumentos.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\EditarDocumentos.ascx.cs"
+                    DependentUpon = "EditarDocumentos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Documentos\EditarDocumentos.ascx.resx"
+                    DependentUpon = "EditarDocumentos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Modulos\Documentos\Archivos\" />
+                <Folder RelPath = "Modulos\Documentos\Imagenes\" />
+                <File
+                    RelPath = "Modulos\Eventos\EditarEvento.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\EditarEvento.ascx.cs"
+                    DependentUpon = "EditarEvento.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\EditarEvento.ascx.resx"
+                    DependentUpon = "EditarEvento.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\Eventos.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\Eventos.ascx.cs"
+                    DependentUpon = "Eventos.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\Eventos.ascx.resx"
+                    DependentUpon = "Eventos.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Eventos\EventosBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Html\EditarHtml.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Html\EditarHtml.ascx.cs"
+                    DependentUpon = "EditarHtml.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Html\EditarHtml.ascx.resx"
+                    DependentUpon = "EditarHtml.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Html\Html.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Html\Html.ascx.cs"
+                    DependentUpon = "Html.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Html\Html.ascx.resx"
+                    DependentUpon = "Html.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Html\HtmlBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EditarImagen.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EditarImagen.ascx.cs"
+                    DependentUpon = "EditarImagen.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EditarImagen.ascx.resx"
+                    DependentUpon = "EditarImagen.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\Imagen.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\Imagen.ascx.cs"
+                    DependentUpon = "Imagen.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\Imagen.ascx.resx"
+                    DependentUpon = "Imagen.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EjecucionObras\EjecucionObras.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EjecucionObras\EjecucionObras.ascx.cs"
+                    DependentUpon = "EjecucionObras.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EjecucionObras\EjecucionObras.ascx.resx"
+                    DependentUpon = "EjecucionObras.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Imagen\EjecucionObras\EjecucionObrasBD.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Xml\EditarXml.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Xml\EditarXml.ascx.cs"
+                    DependentUpon = "EditarXml.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Xml\EditarXml.ascx.resx"
+                    DependentUpon = "EditarXml.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modulos\Xml\Xml.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modulos\Xml\Xml.ascx.cs"
+                    DependentUpon = "Xml.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modulos\Xml\Xml.ascx.resx"
+                    DependentUpon = "Xml.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Default.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Encabezado.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\MenuIzq.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Paneles.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Pie.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Amarillo\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Default.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Azul\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Azul\Encabezado.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Azul\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Azul\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\MenuIzq.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Azul\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Azul\Paneles.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Azul\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Azul\Pie.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Azul\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Azul\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Default.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Encabezado.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\MenuIzq.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Paneles.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Pie.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\BlancoNegro\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Default.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Encabezado.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\MenuIzq.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Defecto\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Paneles.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Pie.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\tab.bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\tab.separator.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Defecto\Imagenes\tab.slide.hm.li.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Default.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Encabezado.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\MenuIzq.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Rojo\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Paneles.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Pie.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Rojo\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Default.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Default.ascx.cs"
+                    DependentUpon = "Default.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Verde\Default.ascx.resx"
+                    DependentUpon = "Default.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Verde\Encabezado.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Encabezado.ascx.cs"
+                    DependentUpon = "Encabezado.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Verde\Encabezado.ascx.resx"
+                    DependentUpon = "Encabezado.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Verde\Estilo.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\MenuIzq.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\MenuIzq.ascx.cs"
+                    DependentUpon = "MenuIzq.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Verde\MenuIzq.ascx.resx"
+                    DependentUpon = "MenuIzq.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Verde\Paneles.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Paneles.ascx.cs"
+                    DependentUpon = "Paneles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Verde\Paneles.ascx.resx"
+                    DependentUpon = "Paneles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Verde\Pie.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Pie.ascx.cs"
+                    DependentUpon = "Pie.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Temas\Verde\Pie.ascx.resx"
+                    DependentUpon = "Pie.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\abajo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\abortar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\arriba.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\borrar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\crear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\derecha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\editar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\editarm.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\error.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\izquierda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\llave.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Temas\Verde\Imagenes\navlink.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

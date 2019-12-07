@@ -1,0 +1,1 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="OrdenesCompraxSectores.ascx.cs" Inherits="PortalGobernacion.Modulos.GENE.Apoyo.ComprasServicios.OrdenesCompraxSectores" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>

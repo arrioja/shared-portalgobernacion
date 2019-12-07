@@ -1,0 +1,192 @@
+/* Estilo Principal */
+body
+{
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: black; 
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+/* Estilo de tablas */
+table 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+td 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+tr 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/* Titulo del Portal */
+.TituloPortal
+{
+	font-size: 20px;
+	color: black;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+/* Encabezado */
+.Encabezado
+{
+	background: sandybrown;
+}
+
+/* Paneles */
+.Paneles
+{
+	background: white;
+}
+.PanelCentr
+{
+	background: white;
+}
+.PanelIzq
+{
+	background: lightgoldenrodyellow;
+}
+.PanelDer
+{
+	background: white;
+}
+
+/* Pie */
+.Pie
+{
+	background: chocolate;
+	color: khaki;
+}
+
+/* Enlaces del Portal (Página Principal, Ingresar, Usuario) */
+.PortalLink
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:link 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:visited 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Menu Paginas */
+.OtrasPags
+{
+	font-weight: bold;
+	color: white;
+	background-color: sandybrown; 
+}
+.OtrasPags A:link 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:visited 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.SeleccionPag
+{
+	font-weight: bold;
+	color: sandybrown;
+	background-color: navajowhite;
+}
+.SeleccionPag A:link 
+{
+	color: sandybrown;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:visited 
+{
+	color: sandybrown;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:active
+{
+	color: sandybrown;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:hover
+{
+	color: sandybrown;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Titulo del Modulo */
+.TituloModulo
+{
+	font-weight: bold;
+	background: sandybrown;
+	color: white;
+}
+
+.SubTitulo
+{
+	color: black;
+	font-weight: bold;
+}
+.Modulo
+{
+	color: #660000;
+	background-color: ivory;
+}
+
+.TablaModulo
+{
+	border-right: sandybrown 1px solid;
+	border-top: sandybrown 1px solid;
+	border-left: sandybrown 1px solid;
+	border-bottom: sandybrown 1px solid;
+}

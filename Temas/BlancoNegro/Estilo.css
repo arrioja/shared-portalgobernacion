@@ -1,0 +1,219 @@
+/* Estilo Principal */
+body
+{
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: black; 
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+/* Estilo de tablas */
+table 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+td 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+tr 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/* Titulo del Portal */
+.TituloPortal
+{
+	font-size: 20px;
+	color: White;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+/* Encabezado */
+.Encabezado
+{
+	background: black;
+}
+
+/* Paneles */
+.Paneles
+{
+	background: white;
+}
+.PanelCentr
+{
+	background: white;
+}
+.PanelIzq
+{
+	background: darkgray;
+}
+.PanelDer
+{
+	background: white;
+}
+
+/* Pie */
+.Pie
+{
+	background: gainsboro;
+	color: dimgray;
+}
+
+/* Enlaces del Portal (Página Principal, Ingresar, Usuario) */
+.PortalLink
+{
+	font-weight: bold;
+	color: gainsboro;
+	text-decoration: none;
+}
+.PortalLink A:link 
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:visited 
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:active
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:hover
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Menu Paginas */
+.OtrasPags
+{
+	font-weight: bold;
+	color: gainsboro;
+	background-color: black; 
+}
+.OtrasPags A:link 
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:visited 
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:active
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:hover
+{
+	color: gainsboro;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.SeleccionPag
+{
+	font-weight: bold;
+	color: black;
+	background-color: gainsboro;
+}
+.SeleccionPag A:link 
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:visited 
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:active
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:hover
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Titulo del Modulo */
+.TituloModulo
+{
+	font-weight: bold;
+	background: black;
+	color: white;
+}
+
+.SubTitulo
+{
+	color: black;
+	font-weight: bold;
+}
+
+.Modulo
+{
+	background-color: white;
+}
+
+.TablaModulo
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+}
+
+.Grid
+{
+	border-right: black 1px solid;
+	table-layout: auto;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	border-collapse: collapse;
+}
+
+.GridTitulo
+{
+	font-weight: bold;
+	background: black;
+	color: white;
+}
+
+.GridElemento
+{
+	background: gainsboro;
+}
+
+.GridAlterno
+{
+	background: white;
+}

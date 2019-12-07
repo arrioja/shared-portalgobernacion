@@ -1,0 +1,192 @@
+/* Estilo Principal */
+body
+{
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: black; 
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+/* Estilo de tablas */
+table 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+td 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+tr 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/* Titulo del Portal */
+.TituloPortal
+{
+	font-size: 20px;
+	color: crimson;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+/* Encabezado */
+.Encabezado
+{
+	background: white;
+}
+
+/* Paneles */
+.Paneles
+{
+	background: mistyrose;
+}
+.PanelCentr
+{
+	background: mistyrose;
+}
+.PanelIzq
+{
+	background: mistyrose;
+}
+.PanelDer
+{
+	background: mistyrose;
+}
+
+/* Pie */
+.Pie
+{
+	background: crimson;
+	color: white;
+}
+
+/* Enlaces del Portal (Página Principal, Ingresar, Usuario) */
+.PortalLink
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:link 
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:visited 
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:active
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:hover
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Menu Paginas */
+.OtrasPags
+{
+	font-weight: bold;
+	color: white;
+	background-color: crimson; 
+}
+.OtrasPags A:link 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:visited 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.SeleccionPag
+{
+	font-weight: bold;
+	color: crimson;
+	background-color: mistyrose;
+}
+.SeleccionPag A:link 
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:visited 
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:active
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:hover
+{
+	color: crimson;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Titulo del Modulo */
+.TituloModulo
+{
+	font-weight: bold;
+	background: crimson;
+	color: white;
+}
+
+.SubTitulo
+{
+	color: black;
+	font-weight: bold;
+}
+
+.Modulo
+{
+	background-color: white;
+}
+
+.TablaModulo
+{
+	border-right: crimson 1px solid;
+	border-top: crimson 1px solid;
+	border-left: crimson 1px solid;
+	border-bottom: crimson 1px solid;
+}

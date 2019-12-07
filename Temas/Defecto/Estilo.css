@@ -1,0 +1,239 @@
+/* Estilo Principal */
+body
+{
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: black; 
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+/* Estilo de tablas */
+table 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+td 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+tr 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/* Titulo del Portal */
+.TituloPortal
+{
+	font-size: 20px;
+	color: white;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+/* Encabezado */
+.Encabezado
+{
+	background: #336699;
+}
+
+/* Paneles */
+.Paneles
+{
+	background: #dbeaf5;
+}
+.PanelCentr
+{
+	background: #dbeaf5;
+}
+.PanelIzq
+{
+	background: #dbeaf5;
+}
+.PanelDer
+{
+	background: #dbeaf5;
+}
+
+/* Pie */
+.Pie
+{
+	background: #336699;
+	color: white;
+}
+
+/* Enlaces del Portal (Página Principal, Ingresar, Usuario) */
+.PortalLink
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:link 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:visited 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Menu Paginas */
+.OtrasPags
+{
+	font-weight: bold;
+	color: white;
+}
+.OtrasPags A:link 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:visited 
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.SeleccionPag
+{
+	font-weight: bold;
+	color: #87b3d0;
+}
+.SeleccionPag A:link 
+{
+	color: #87b3d0;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:visited 
+{
+	color: #87b3d0;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:active
+{
+	color: #87b3d0;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:hover
+{
+	color: #87b3d0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.MenuIzquierda
+{
+	background: #336699;
+	color: white;
+}
+
+/* Titulo del Modulo */
+.TituloModulo
+{
+	color: black;
+	background: #A0C6E5;
+	font-weight: bold;
+}
+
+.SubTitulo
+{
+	color: black;
+	font-weight: bold;
+}
+
+.Modulo
+{
+	background-color: white;
+}
+
+.BarraAdmin
+{
+	background-color: #87b3d0;
+}
+
+.TablaModulo
+{
+	border-right: #a0c6e5 1px solid;
+	border-top: #a0c6e5 1px solid;
+	border-left: #a0c6e5 1px solid;
+	border-bottom: #a0c6e5 1px solid;
+}
+
+.Grid
+{
+	border-right: #a0c6e5 1px solid;
+	table-layout: auto;
+	border-top: #a0c6e5 1px solid;
+	border-left: #a0c6e5 1px solid;
+	border-bottom: #a0c6e5 1px solid;
+	border-collapse: collapse;
+}
+
+.GridTitulo
+{
+	font-weight: bold;
+	background: #336699;
+	color: white;
+}
+
+.GridElemento
+{
+	background: white;
+}
+
+.GridElementoActivo
+{
+	background: #ffffcc;
+}
+.GridAlterno
+{
+	background: #dbeaf5;
+}
+
+.GridTituloSeleccion
+{
+	font-weight: bold;
+	background: #336699;
+	color: white;
+}

@@ -1,0 +1,199 @@
+/* Estilo Principal */
+body
+{
+	font-size: 11px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	color: black;
+	background-color:  lemonchiffon; 
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+/* Estilo de tablas */
+table 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+td 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+tr 
+{
+	font-size: 11px; 
+	font-family: Tahoma, Helvetica, sans-serif;
+}
+
+/* Titulo del Portal */
+.TituloPortal
+{
+	font-size: 20px;
+	color: yellow;
+	font-family: 'Arial Black' , Tahoma, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+/* Encabezado */
+.Encabezado
+{
+	background: royalblue;
+}
+
+/* Paneles */
+.Paneles
+{
+	background: white;
+}
+.PanelCentr
+{
+	background: white;
+}
+.PanelIzq
+{
+	background: white;
+}
+.PanelDer
+{
+	background: white;
+}
+
+/* Pie */
+.Pie
+{
+	background: #3366ff;
+	color: yellow;
+}
+
+/* Enlaces del Portal (Página Principal, Ingresar, Usuario) */
+.PortalLink
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:link 
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:visited 
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:active
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.PortalLink A:hover
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Menu Paginas */
+.OtrasPags
+{
+	font-weight: bold;
+	color: yellow;
+	background-color: royalblue;
+}
+.OtrasPags A:link 
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:visited 
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:active
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+.OtrasPags A:hover
+{
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.SeleccionPag
+{
+	font-weight: bold;
+	color: royalblue;
+	background-color:yellow;
+}
+.SeleccionPag A:link 
+{
+	color: royalblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:visited 
+{
+	color: royalblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:active
+{
+	color: royalblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+.SeleccionPag A:hover
+{
+	color: royalblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.MenuIzquierda
+{
+	background: #336699;
+	color: white;
+}
+
+/* Titulo del Modulo */
+.TituloModulo
+{
+	font-weight: bold;
+	background: royalblue;
+	color: yellow;
+}
+
+.SubTitulo
+{
+	color: black;
+	font-weight: bold;
+}
+
+.Modulo
+{
+	background-color: white;
+}
+
+.TablaModulo
+{
+	border-right: royalblue 1px solid;
+	border-top: royalblue 1px solid;
+	border-left: royalblue 1px solid;
+	border-bottom: royalblue 1px solid;
+}

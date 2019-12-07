@@ -1,0 +1,66 @@
+1.6.3
+- fixed bug with RemoveServerNamesFromUrl
+- Added ReadOnly mode
+- Removed DisablePaste property
+- Added PasteMode property
+	* Default (normal behavior)
+	* NoScript (removed <SCRIPT> tags from the document)
+	* NoHtml (removes all HTML tags)
+	* Disabled (no pasting is allowed)
+
+1.6.2
+- IE 5 fixed (again, somehow i let the error creep back in)
+- BasicEditor image fix
+- Word Clean function (from another free editor, but i can't find, please let me know if you find it)
+- Disable Paste
+- fixed HTML checkbox (when HtmlMode=HtmlMode.Checked)
+- improved RemoveScriptNameFromBookmarks functionality
+- include version number in JavaScript, Reflection is cool
+- Insert Table script
+
+1.6.1
+- added resource manage / credits Manu
+- fixed designer icon (required change of default namespace in project) FreeTextBox 1.6
+- fixed designer bugs
+- added minimal designer support (thanks to a user on http://revjon.com/forums/ - i deleted the account on accident, sorry!)
+- fixed EnableSsl bug (forums user?)
+
+1.6.0
+- fixed two ID tags in Textarea for downlevel browsers (thanks to multiple)
+- added RemoveScriptNameFromBookmarks so that href="#bookmark" remain intact
+- shortened all property code to 2-line viewstate method (saving about 100 lines)
+- added Georgia to default font list
+- added an extra symbol to default html symbols list
+- changed names of images folder: flat -> office2000, raised -> officeXP
+- added ToolbarType.Custom. This must be set to use custom ButtonStyle settings!!
+- added HtmlStrippedText property. Simple strip using Regex.Replace(this.Text,"<(.|\n)+?>","");
+- rebuilt Style controls and used custom viewstate handline to persist all subproperties
+- adjusted ToolbarType so that it doesn't override too many other settings.
+- added designer categories to properties
+- preload button over and down image for Office2003 style
+- preload by folder name instead of control name 
+
+1.5
+- Reorganized Source Code
+- Office2003 Styles
+- IE 5.0 fix
+- Curly Quotes JavaScript
+- HelperScriptsParameters property (for DNN security)
+- ieSpellCheck function
+- ImageGallery now also server as a properties editor
+- ImageGallery delete file error fixed
+
+1.4.2
+- Change: thanks to manu correctly access resources. 
+- Addition: Ctrl+Tab now switches modes! 
+- Addition: Custom buttons can now have post back properties if the control is inherited. 
+- Addition: added "ftb." to all "helper" scripts to help organize them (especially if I ever get to adding table functions) 
+- Addition: added HelperFilesPath property to determine where helper scripts are stored.  Note: If multiple controls on are a page, the last control's property will be used. 
+- Addition: added justify full to default toolbar 
+- Fix: now works within a user control (Page.RegisterRequiresPostBack(this);) 
+- Fix: true postbacks 
+- Fix: problems with imagegallery (thanks to Christopher for the Application fix) 
+- Change: OnClick --> OnSaveClick. This to accomodate custom OnXXXXClick functionality 
+- IChange: nitializeToolbars is not longer public. Using ToolbarItems is now one step: myFreeTextBox.Toolbars = ToolbarGenerator.ToolbarsFromString("bold,italic"); 
+- Change: renamed a few button images for consistency 
+- Change: ToolbarButton system is vastly changed to allow more flexibility 

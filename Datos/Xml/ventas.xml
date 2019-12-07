@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="iso-8859-1"?>
+<sales xmlns:HTML="http://www.w3.org/Profiles/XHTML-transitional">
+    <product id='Internet'>
+        <revenue>60</revenue>
+        <growth>8</growth>
+    </product>
+    <product id='Teléfono'>
+        <revenue>45</revenue>
+        <growth>-7.8</growth>
+    </product>
+    <product id='Luz'>
+        <revenue>10</revenue>
+        <growth>9</growth>
+    </product>
+    <product id='Agua'>
+        <revenue>4</revenue>
+        <growth>-3</growth>
+    </product>
+</sales>

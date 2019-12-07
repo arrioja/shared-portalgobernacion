@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalGobernacion", "http://localhost/PortalGobernacion/PortalGobernacion.csproj", "{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}.Debug.ActiveCfg = Debug|.NET
+		{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}.Debug.Build.0 = Debug|.NET
+		{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}.Release.ActiveCfg = Release|.NET
+		{2425FCCC-07FC-45FE-8F6B-F4D2B2581E3C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
